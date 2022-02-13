@@ -24,38 +24,32 @@ Project Modules:        Lib --> drivers.py  (includes driver initilisation metho
                                 helpers.py  (includes all common methods which are used in 'Pages')
                                         Designed Methods: -->  
 
-                                                'get_url'
-                                                'find_and_wait_elem' 
-                                                'find_several_elements'
-                                                'find_and_click'
+                                                'go_to_page'
+                                                'find_and_click' 
                                                 'find_and_send_keys'
-                                                'create_file_and_write' 
-                                                'email_generator'                             
-                                                'password_generator'
+                                                'find'
+                                                'switch_window'
+                                                'switch_to_alert' 
+                                                
 
                                 log_file.py (includes method 'create_log_file')                              
                         Pages --> 
 
-                                sign_up_page.py
-                                        Designed Methods: -->
-                                                'sign_up_user'
-                                sign_in_page.py 
-                                        Designed Methods: -->
-                                                'verify_user_sign_in'
-                                                'go_to_courses_page'
-                                courses_page.py
-                                        Designed Methods: -->
-                                                'search_given_course_name'
-                                                'search_results'
+                                google_page.py
+                                        
+                                practice_page.py 
+                                        
+                                sign_in_page.py
+                                        
 
                         Test_Data --> 
 
                                 test_data.py (includes test data, which are used in tests)
 Test Runer:                               
                         Tests: --> 
-                                test_letskodeit.py (includes method test_lets_kodeit which calls methods from Pages)
+                                lesson6_test.py (includes method test_lets_kodeit which calls methods from Pages)
 
-Run result files:       test_log.txt
-                        search_result.txt
+Run result files:       test_run.txt
+                        
 
 Tests should be run in Python. 
